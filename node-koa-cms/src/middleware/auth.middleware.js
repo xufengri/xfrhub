@@ -34,7 +34,7 @@ const verifyLogin = async (ctx, next) =>{
 }
 
 const verifyAuth = async(ctx, next) =>{
-    console.log('验证授权middleware~');
+    // console.log('验证授权middleware~');
 
     //1.获取token
     const authorization = ctx.headers.authorization;
